@@ -190,6 +190,7 @@ def generate_flow(epoch=3):
 if __name__ == '__main__':
     if args.mode == 'train':
         train()
+        print("train")
     elif args.mode == 'gen':
         generate_flow(args.epoch)
     else:
